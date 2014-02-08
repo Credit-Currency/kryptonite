@@ -830,8 +830,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 20 * COIN;
 
-	if(nHeight < 502) //first 500 blocks 1 coin each
-		nSubsidy = 1 * COIN;
+    if(nHeight < 502) //first 500 blocks 1 coin each
+        nSubsidy = 1 * COIN;
     if(nHeight == 1) // Premine 500,000 first block
         nSubsidy = 500000 * COIN;
     if(nHeight > 4000000) // no block reward after 10 years
