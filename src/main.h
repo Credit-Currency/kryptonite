@@ -29,7 +29,7 @@ class CNode;
 // This fix should give some protection agains sudden
 // changes of the network hashrate.
 // Thanks: https://bitcointalk.org/index.php?topic=182430.msg1904506#msg1904506
-// activated: after block 15000 for all following diff retargeting events
+// activated: after block 15000 for all following KRYP retargeting events
 #define COINFIX1_BLOCK  (15000)
 
 // for now, we leave the block size at 1 MB, meaning we support roughly 2400 transactions
